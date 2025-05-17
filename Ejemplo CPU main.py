@@ -35,11 +35,11 @@ def main():
             mostrar_pendientes(cola)
         elif opcion == "5":
             # Finalizamos la simulación
-            print("→ Saliendo de la simulación. ¡Hasta luego!")
+            print("Saliendo de la simulación. ¡Hasta luego!")
             break
         else:
             # Mensaje para opciones fuera de rango
-            print("→ Opción inválida. Intente de nuevo.")
+            print("Opción inválida. Intente de nuevo.")
 
         # Línea separadora para claridad entre iteraciones
         print("-" * 40)
